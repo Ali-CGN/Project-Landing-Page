@@ -2,29 +2,38 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    height: 100vh;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    color: white;
-    padding: 8px 80px;
+    color: #f9faf8;
+    padding: 20px 700px;
+    font-size: 18px;
 }
 
 .headerlogo {
-    font-weight: bold;
-    font-size: larger;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
 }
 
-.seconecontainer {
+.heromaintext {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.secone {
     background-color: #1F2937;
-    color: white;
+    color: #f9faf8;
+    font-size: 18px;
     display: flex;
-    padding: 30px 80px;
-    justify-content: center;
-    align-items: center;
+    padding: 100px 80px;
+    gap: 20px;
 }
 
 .seconeleft {
@@ -34,12 +43,31 @@ body {
 .seconeright {
     flex: 1;
     background-color: gray;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herobutton {
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px 32px;
+    margin-top: 30px;
 }
 
 .sectwo {
     text-align: center;
-    padding: 30px 80px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.sectwoheader {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
 }
 
 .sectwocontainer {
@@ -59,26 +87,24 @@ body {
 
 
 .imgplace {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: solid 4px #3882F6;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
-.text {
-    max-width: 108px;
-}
-
-
 .secthree {
     background-color: #E5E7EB;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .secthreecontainer {
     display: flex;
     flex-direction: column;
-    padding: 100px 300px;
+    padding-left: 110px;
+    padding-right: 110px;
 }
 
 .quotetext {
@@ -86,19 +112,47 @@ body {
     font-weight: 100;
     font-style: italic;
     color: #1F2937;
+    text-align: justify;
 }
 
 .quote {
     text-align: end;
     font-weight: bold;
     font-size: larger;
+    font-size: 24px;
 }
 
-.secfour {
+.secfour{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.secfourcontainer {
     background-color: #3882F6;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-size: 18px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.secfourheading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.secfourbutton {
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 600;
+    border: 3px solid #f9faf8;
+    border-radius: 8px;
+    padding: 8px 32px;
+    margin-left: 100px;
 }
 
 .footer {
@@ -107,7 +161,8 @@ body {
     align-items: center;
     background-color: #1F2937;
     color: #E5E7EB;
-    padding: 30px 10px;
+    padding: 50px 10px;
+    font-size: 18px;
 }
 
 ul {
@@ -116,6 +171,7 @@ ul {
     padding: 0;
     display: flex;
     gap: 8px;
+    align-self: flex-end;
 }
 
 a {
@@ -127,3 +183,11 @@ h1, h2, h5 {
     margin: 0;
 }
 
+p {
+    margin: 0;
+}
+
+.secone, .sectwo, .secthree, .secfour {
+    padding-left: 700px;
+    padding-right: 700px;
+}
