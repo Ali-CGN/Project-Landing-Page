@@ -11,7 +11,7 @@ body {
     justify-content: space-between;
     background-color: #1F2937;
     color: #f9faf8;
-    padding: 20px 700px;
+    padding: 20px 300px;
     font-size: 18px;
 }
 
@@ -188,6 +188,6 @@ p {
 }
 
 .secone, .sectwo, .secthree, .secfour {
-    padding-left: 700px;
-    padding-right: 700px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
